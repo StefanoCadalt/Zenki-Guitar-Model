@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="BXzSlH" name="ZenkiGuitarModel" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginCharacteristicsValue="pluginIsSynth"
+              pluginName="ZenkiGuitarModel" pluginDesc="Physical model of a guitar with parameters and effects"
+              pluginCode="Znki">
+  <MAINGROUP id="hOrcJ1" name="ZenkiGuitarModel">
+    <GROUP id="{A79DE33B-E1A9-48C5-ECE5-23BB030320DC}" name="Source">
+      <FILE id="hAUhjf" name="ShareTechMono-Regular.ttf" compile="0" resource="1"
+            file="Assets/Share_Tech_Mono/ShareTechMono-Regular.ttf"/>
+      <FILE id="GL192j" name="KnobStyle.h" compile="0" resource="0" file="Source/KnobStyle.h"/>
+      <FILE id="YSYNoL" name="StringSynthesiser.h" compile="0" resource="0"
+            file="Source/StringSynthesiser.h"/>
+      <FILE id="sxxJg4" name="StringComponent.h" compile="0" resource="0"
+            file="Source/StringComponent.h"/>
+      <FILE id="AkcihZ" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="pMKCV5" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="dbTiHc" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="ljBIu2" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="stringUIdemo"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="stringUIdemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/Users/enric/Documents/juce-8.0.12-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
